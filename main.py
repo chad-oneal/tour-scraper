@@ -40,7 +40,7 @@ def send_email(message):
     # Email address used for sending the email
     username = "chadoneal3@gmail.com"
     # Password for the email account
-    password = "dqscitqswqduzfof"
+    password = os.getenv("TOUR_PASSWORD")
 
     # Email address of the recipient
     receiver = "chadoneal3@gmail.com"
